@@ -181,8 +181,8 @@ h1 {
 
 .rounded-portrait {
   border-radius: 50px;
-  height: auto;
-  width: auto;
+  height: 300px;
+  width: 300px;
 }
 
 .about-text-wrapper {
