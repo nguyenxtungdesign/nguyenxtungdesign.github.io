@@ -307,6 +307,7 @@ to {
   padding: 0 20px;
   transition: 0.6s ease;
   user-select: none;
+  -webkit-user-select: none;
 }
 
 .next {
