@@ -23,6 +23,8 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out 0.5s forwards;
 }
 
 .hero-header-content span {
@@ -41,6 +43,7 @@ a {
 
 .top-navbar {
   margin-left: 20px;
+  animation: fadeInDown 2s ease-in-out 0s forwards;
 }
 
 .top-navbar .nav-link {
@@ -102,6 +105,8 @@ a {
   font-family: 'ChaparralPro-Bold';
   font-size: 50px;
   margin-top: 20px;
+  animation: fadeInUp 1s ease-in-out 0.5s forwards;
+  opacity: 0;
 }
 
 @media (max-width: 767.98px) {
@@ -115,6 +120,8 @@ a {
   margin-top: -15px;
   font-family: 'Charter';
   font-size: 20px;
+  animation: fadeInUp 1s ease-in-out 0.7s forwards;
+  opacity: 0;
 }
 
 .showcase-item p {
@@ -125,11 +132,14 @@ a {
   color: #707070;
   text-align: left;
   margin: 30px auto 20px auto;
+  animation: fadeInUp 1s ease-in-out 1s forwards;
+  opacity: 0;
 }
 
 .showcase-item img {
   width: 100%;
   object-fit: scale-down;
+  animation: fadeInRight 1s ease-in-out 0s 1;
 }
 
 @media (min-width: 1200px) {
@@ -195,6 +205,7 @@ a {
   border-radius: 5px;
   width: 100%;
   max-width: 1134px;
+  animation: fadeInUp 2s ease-in-out forwards ;
 }
 
 .contact-page h2 {
