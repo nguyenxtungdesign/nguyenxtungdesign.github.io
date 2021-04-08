@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>T U N G</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="https://use.typekit.net/iuj4sfr.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<header>
+  <div>
+    <nav class="hero-nav">
+      <a href="index.html"><img class="logo" src="pics/home/tung-logo.svg" alt="logo"></a>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="index.html#category">projects</a></li>
+        <li><a href="about.html">about me</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="about">
+<section>
+  <h3>HELLO WORLD</h3>
+  <div class="about-img-wrap hidden">
+    <img src="pics/home/me.png" alt="Me">
+  </div>
+</section>
+<section class="about-detail-wrap">
+<article class="">
+  <h2><i class="fas fa-caret-right"></i> ABOUT</h2>
+  <p>I am a Graphic/Web Design student graduating from <span>Tokyo Design Academy(東京デザイン専門学校).</span></p>
+  <p>I feel lucky to have learned in the best art school in Tokyo where I made a lot of creative projects. </p>
+  <p>To me, the most important thing in design is to understand who you design for and to bring joy to the users.</p>
+  <p>I am now looking for contract positions as a <span>UX/UI Designer</span> or <span>Graphic Designer.</span></p>
+</article>
+<article class="">
+  <h2><i class="fas fa-caret-right"></i> SERVICES</h2>
+  <p><span>・Web design: </span>I create user-friendly, fresh & clean looking websites from any smallest idea.</p>
+  <p><span>・Front end development: </span>building out the visual components of a website. Using HTML, CSS, and Javascript, I build fast, interactive websites.</p>
+  <p><span>・Graphic design: </span>product design, custom logos, posters, labels, packages, T-shirt, stickers, mockups…</p>
+  <p><span>・Animation & edit: </span>create an eye-catching logo animation, edit an advertising video for your project.</p>
+</article>
+<h2><i class="fas fa-caret-right"></i> CONTACT</h2>
+<article class="contact">
+  <a target="_blank" href="https://www.linkedin.com/in/nguyen-x-tung-design/">
+    <i class="fab fa-linkedin"></i>/in/nguyen-x-tung-design/
+  </a>
+  <a href="mailto: nguyen.x.tung.design@gmail.com">
+    <i class="far fa-envelope"></i>nguyen.x.tung.design@gmail.com
+  </a>
+  <a target="_blank" href="https://www.instagram.com/tungmit00/">
+    <i class="fab fa-instagram"></i>@tungmit00
+  </a>
+</article>
+<h2><i class="fas fa-caret-right"></i> MY RESUME</h2>
+  <a style="text-decoration: underline;" target="_blank" href="https://drive.google.com/drive/folders/1GnVEm-7Mh58T9c4IHPcWbZN7Uu9J5H04?usp=sharing">
+    click here to see my resume (JP/Eng available)
+  </a>
+</section>
+</main>
+<footer>
+  <div class="copyright">
+    Copyright Nguyen Xuan Tung 2020
+  </div>
+  <div>
+    <nav>
+      <a href="index.html"><img class="logo" src="pics/home/tung-logo-2.svg" alt="logo"></a>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="index.html#category">projects</a></li>
+        <li><a href="#">about me</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="send-me">
+    <p>Interested in doing a project together?</p>
+    <h3><a href="mailto: nguyen.x.tung.design@gmail.com">Email me >></a></h3>
+  </div>
+  <div></div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slide");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "flex";
+  dots[slideIndex-1].className += " active";
+}
+
+// slide animation
+// $('.prev','.next','.dot').on('click',function(){
+//   $('.slide-img-wrapper').addClass('animation-reverse');
+// })
+</script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
