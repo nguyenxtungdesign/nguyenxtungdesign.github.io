@@ -94,7 +94,7 @@ a {
 }
 
 .showcase button {
-  background: white;
+  background: green;
 }
 
 .showcase-item {
@@ -105,8 +105,8 @@ a {
   font-family: 'ChaparralPro-Bold';
   font-size: 50px;
   margin-top: 20px;
-  animation: fadeInUp 1s ease-in-out 0.5s forwards;
-  opacity: 0;
+  /* animation: fadeInUp 1s ease-in-out 0.5s forwards; */
+  /* opacity: 0; */
 }
 
 @media (max-width: 767.98px) {
@@ -120,8 +120,8 @@ a {
   margin-top: -15px;
   font-family: 'Charter';
   font-size: 20px;
-  animation: fadeInUp 1s ease-in-out 0.7s forwards;
-  opacity: 0;
+  /* animation: fadeInUp 1s ease-in-out 0.7s forwards; */
+  /* opacity: 0; */
 }
 
 .showcase-item p {
@@ -132,14 +132,14 @@ a {
   color: #707070;
   text-align: left;
   margin: 30px auto 20px auto;
-  animation: fadeInUp 1s ease-in-out 1s forwards;
-  opacity: 0;
+  /* animation: fadeInUp 1s ease-in-out 1s forwards; */
+  /* opacity: 0; */
 }
 
 .showcase-item img {
   width: 100%;
   object-fit: scale-down;
-  animation: fadeInRight 1s ease-in-out 0s 1;
+  /* animation: fadeInRight 1s ease-in-out 0s 1; */
 }
 
 @media (min-width: 1200px) {
