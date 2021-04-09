@@ -97,9 +97,6 @@ a {
   .showcase .splide__arrow {
     transform: translateY(40px);
   }
-  .splide__pagination__page {
-    background-color: #222d3c;
-  }
 }
 
 .showcase .splide__arrow {
