@@ -93,10 +93,22 @@ a {
   color: #ffffff;
 }
 
-.showcase button {
+@media (max-width: 767.98px) {
+  .showcase .splide__arrow {
+    transform: translateY(40px);
+  }
+  .splide__pagination__page {
+    background-color: #222d3c;
+  }
+}
+
+.showcase .splide__arrow {
   background: white;
 }
 
+ .splide__pagination .is-active {
+  background: #8e5934;
+}
 
 .showcase-item {
   text-align: center;
