@@ -1,0 +1,7 @@
+collections:
+  projects_web:
+    output: true
+  projects_ads:
+    output: true
+  projects_others:
+    output: true
