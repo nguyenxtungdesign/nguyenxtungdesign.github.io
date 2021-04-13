@@ -2,19 +2,41 @@
 layout: skeleton
 ---
 
+{% if page.collection %}
+  {% assign projects = site[page.collection]  %}
+
+  {% if projects.size > 1 %}
+    {% assign prevurl = projects.last.url | remove: ".html" %}
+    {% assign nexturl = projects.first.url | remove: ".html" %}
+  {% endif %}
+
+  {% for project in projects %}
+    {% if project.title == page.title %}
+      {% unless forloop.first %}
+        {% assign prevurl = prev.url %}
+      {% endunless %}
+      {% unless forloop.last %}
+        {% assign next = projects[forloop.index] %}
+        {% assign nexturl = next.url %}
+      {% endunless %}
+    {% endif %}
+    {% assign prev = project %}
+  {% endfor %}
+{% endif %}
+
 {% include navbar.html %}
 
-  {{ content }}
+{{ content }}
 
 <div class="container">
   <div class="row justify-content-between">
     <p class="col">
-      <a href="">
+      <a href="{{ prevurl }}">
         <i class="fas fa-angle-double-left"></i>Previous project
       </a>
     </p>
     <p class="col text-end">
-      <a href="">
+      <a href="{{ nexturl }}">
         Next project<i class="fas fa-angle-double-right"></i>
       </a>
     </p>
