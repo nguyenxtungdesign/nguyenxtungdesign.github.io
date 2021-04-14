@@ -19,6 +19,22 @@ a {
   color: #694F45;
 }
 
+.btn-primary {
+  background-color: #ac4b35;
+  color: #ffffff;
+  font-family: ChaparralPro-Bold;
+  font-size: 22px;
+  border-color: inherit;
+  border-radius: 31px;
+}
+
+.btn-primary:hover {
+  background-color: #ffb8b8;
+  color: #9f1616;
+  border-color: #ffb8b8;
+
+}
+
 .hero-header {
   background: url('../pics/home/hero-bg.png');
   background-position: center;
@@ -264,4 +280,39 @@ a {
 .project p {
   font-family: FuturaPTBook;
   font-size: 19px;
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out 0.3s forwards;
 }
+
+.project .btn-primary {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out 0.5s forwards;
+}
+
+.project .img {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out 0.7s forwards;
+  margin-bottom: 30px;
+}
+
+.project .description {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.project a {
+  /* font-family: Charter;
+  font-size: 18px;
+  text-decoration: underline;
+  color: #2f98d4; */
+}
+
+.prev-next-link a {
+  font-family: Charter;
+  font-size: 20px;
+  text-decoration: underline;
+  margin-top: 30px;
+  margin-bottom: 300px;
+}
+
+/

@@ -25,21 +25,35 @@ layout: skeleton
 {% endif %}
 
 {% include navbar.html %}
+<div class="container">
+  <div class="prev-next-link row justify-content-between">
+    <p class="col">
+      <a href="{{ prevurl }}">
+        <i class="fas fa-angle-double-left"></i>  Previous project
+      </a>
+    </p>
+    <p class="col text-end">
+      <a href="{{ nexturl }}">
+        Next project  <i class="fas fa-angle-double-right"></i>
+      </a>
+    </p>
+  </div>
+</div>
 
 <div class="project">
   {{ content }}
 </div>
 
 <div class="container">
-  <div class="row justify-content-between">
+  <div class="prev-next-link row justify-content-between">
     <p class="col">
       <a href="{{ prevurl }}">
-        <i class="fas fa-angle-double-left"></i>Previous project
+        <i class="fas fa-angle-double-left"></i>  Previous project
       </a>
     </p>
     <p class="col text-end">
       <a href="{{ nexturl }}">
-        Next project<i class="fas fa-angle-double-right"></i>
+        Next project  <i class="fas fa-angle-double-right"></i>
       </a>
     </p>
   </div>

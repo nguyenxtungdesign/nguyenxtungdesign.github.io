@@ -18,6 +18,7 @@ a {
   text-decoration: none;
 }
 
+
 .hero-header {
   background: url('../pics/home/hero-bg.png');
   background-position: center;
@@ -255,13 +256,13 @@ a {
 
 /* project detail pages */
 
-.project-detail-page h1 {
+.project h1 {
   text-align: center;
   font-family: ChaparralPro-Bold;
   font-size: 40px;
 }
 
-.project-detail-page p {
+.project p {
   font-family: FuturaPTBook;
   font-size: 19px;
 }
