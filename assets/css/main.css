@@ -289,10 +289,10 @@ a {
   animation: fadeInUp 1s ease-in-out 0.5s forwards;
 }
 
-.project .img {
+.project .img-fluid {
   opacity: 0;
   animation: fadeInUp 1s ease-in-out 0.7s forwards;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .project .description {
@@ -300,11 +300,11 @@ a {
   margin-bottom: 60px;
 }
 
-.project a {
-  /* font-family: Charter;
+.project .sm-link {
+  font-family: Charter;
   font-size: 18px;
   text-decoration: underline;
-  color: #2f98d4; */
+  color: #2f98d4;
 }
 
 .prev-next-link a {
